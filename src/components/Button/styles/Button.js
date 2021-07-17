@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
   },
 
   button: {
-    backgroundColor: '#171a20cc',
+    // backgroundColor: '#171a20cc',
     justifyContent: 'center',
     alignItems: 'center',
     borderRadius: 20,
@@ -20,7 +20,7 @@ const styles = StyleSheet.create({
   },
 
   text: {
-    color: '#fff',
+    // color: '#fff',
     fontSize: 16,
     fontWeight: '500',
     textTransform: 'uppercase',
