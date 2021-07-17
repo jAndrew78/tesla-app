@@ -1,5 +1,6 @@
 import React from 'react';
 import { Text, View, ImageBackground } from 'react-native';
+import Button from '../Button';
 import styles from './styles/CarItem';
 
 const CarItem = props => {
@@ -16,9 +17,10 @@ const CarItem = props => {
         <Text style={styles.subtitle}>Starting at $69,420</Text>
       </View>
 
+      <Button />
+
     </View>
   );
 }
 
 export default CarItem;
-  
