@@ -1,13 +1,13 @@
 import React from 'react';
 import { Text, View, ImageBackground } from 'react-native';
-import styles from './styles';
+import styles from './styles/CarItem';
 
 const CarItem = props => {
     return (
         <View style={styles.carContainer}>
 
             <ImageBackground 
-                source={require('../../assets/images/ModelS.png')}
+                source={require('../../../assets/images/ModelS.png')}
                 style={styles.image}
             />
 
