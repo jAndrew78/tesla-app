@@ -1,13 +1,7 @@
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-
+  
   carContainer: {
     width: '100%',
     height: '100%',
@@ -31,10 +25,10 @@ const styles = StyleSheet.create({
 
   image: {
     position: 'absolute',
+    resizeMode: 'cover',
     width: '100%',
     height: '100%',
-    resizeMode: 'cover',
-  }
+  },
 });
 
 export default styles;
