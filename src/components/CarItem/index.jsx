@@ -1,20 +1,40 @@
 import React from 'react';
-import { Text, View, ImageBackground } from 'react-native';
+import { Text, View, ImageBackground, Pressable } from 'react-native';
 import Button from '../Button';
 import styles from './styles/CarItem';
 
 const CarItem = props => {
+  
+  const { name, tagline, taglineCTA, image } = props;
+  
   return (
+
     <View style={styles.carContainer}>
 
       <ImageBackground 
-        source={require('../../../assets/images/ModelS.png')}
+        source={image}
         style={styles.image}
       />
 
       <View style={styles.titles}>
-        <Text style={styles.title}>Model S</Text>
-        <Text style={styles.subtitle}>Starting at $69,420</Text>
+        <Text style={styles.title}>{name}</Text>
+        
+        <Text style={styles.subtitle}>
+      
+          {tagline}
+
+          <Pressable
+            onPress={() => {
+              console.warn('Touchless')
+            }}
+          >  
+            <Text style={styles.subtitleCTA}>
+              {taglineCTA}
+            </Text>
+          </Pressable>
+      
+      </Text>
+
       </View>
 
       <View style={styles.buttonContainer}>
