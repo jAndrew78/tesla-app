@@ -23,15 +23,14 @@ const CarItem = props => {
       
           {tagline}
 
-          <Pressable
+          <Text 
+            style={styles.subtitleCTA}
             onPress={() => {
-              console.warn('Touchless')
+              console.warn('Touchless Delivery')
             }}
-          >  
-            <Text style={styles.subtitleCTA}>
-              {taglineCTA}
-            </Text>
-          </Pressable>
+          >
+            {taglineCTA}
+          </Text>
       
         </Text>
 
@@ -43,7 +42,7 @@ const CarItem = props => {
           type='primary'
           content='Custom Order'
           onPress={() => {
-            console.warn('Custom Order Pressed')
+            console.warn('Custom Order')
           }}
         />
 
@@ -51,7 +50,7 @@ const CarItem = props => {
           type='secondary'
           content='Existing Inventory'
           onPress={() => {
-            console.warn('Inventory Pressed')
+            console.warn('Existing Inventory')
           }}
           />
 
