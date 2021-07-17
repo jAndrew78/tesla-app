@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { View, Image, TouchableOpacity } from 'react-native';
-import { ReloadInstructions } from 'react-native/Libraries/NewAppScreen';
 import styles from './styles/Header';
 
 const Header = props => {
