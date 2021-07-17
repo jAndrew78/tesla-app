@@ -5,8 +5,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     width: '100%',
     padding: 10,
-    position: 'relative',
-    top: '60%',
   },
 
   button: {
@@ -16,7 +14,6 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     width: '90%',
     height: 40,
-    
   },
 
   text: {
