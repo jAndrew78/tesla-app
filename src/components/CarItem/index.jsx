@@ -33,7 +33,7 @@ const CarItem = props => {
             </Text>
           </Pressable>
       
-      </Text>
+        </Text>
 
       </View>
 
