@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "tesla-mobile",
+    "name": "Tesla Mobile",
     "slug": "tesla-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/logo.png"
-    }
+    },
+    "description": "Tesla App clone\n- UI only\n- Functional Components\n- Separate StyleSheets\n- Scrollable FlatList\n- Re-usable Button Component with Conditional Logic\n\nnote: pressable items (like buttons) display warning messages. This is intentional. No actual errors are occuring :)",
+    "githubUrl": "https://github.com/jAndrew78/tesla-mobile"
   }
 }
