@@ -9,8 +9,6 @@ Simple Frontend React Native Application
   - Scrollable FlatList
   - Re-usable Button Components with Conditional Logic
 
-note: button functionality tested via built in warning msgs. This is intentional. There are no actual errors occuring :)
-
 ### Expo Go QR Code
 
 ![Preview](qr-code.png?raw=true)
