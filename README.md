@@ -13,4 +13,4 @@ Simple Frontend React Native Application
 
 ![Preview](qr-code.png?raw=true)
 
-If you have Expo Go, you can scan this code with your mobile phone camera or QR scanner to preview the app
+If you have Expo Go, you should be able to scan this code with your camera or QR scanner to preview the app, but I hear there may be issues (especially with IOS devices)
